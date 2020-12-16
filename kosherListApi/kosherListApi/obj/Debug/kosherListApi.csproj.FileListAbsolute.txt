@@ -1,0 +1,220 @@
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\ApplicationInsights.config
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\kosherListApi.dll.config
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\kosherListApi.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\kosherListApi.pdb
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\csc.exe
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\csc.exe.config
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\csc.rsp
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\csi.exe
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\csi.exe.config
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\csi.rsp
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Console.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Security.Claims.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\vbc.exe
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\vbc.rsp
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\BLL.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\DTO.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\EntityFramework.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.AI.Web.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Helpers.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Http.Cors.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Http.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Mvc.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Optimization.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Razor.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.WebPages.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\WebGrease.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\DAL.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Cors.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\BLL.pdb
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\DTO.pdb
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\EntityFramework.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Helpers.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Http.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Mvc.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Optimization.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Razor.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.WebPages.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.AI.Web.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\DAL.pdb
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\bin\DAL.dll.config
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\obj\Debug\kosherListApi.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\obj\Debug\kosherListApi.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\obj\Debug\kosherListApi.csproj.CopyComplete
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\obj\Debug\kosherListApi.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\kosherListApi\obj\Debug\kosherListApi.pdb
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\ApplicationInsights.config
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\kosherListApi.dll.config
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\kosherListApi.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\kosherListApi.pdb
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\csc.exe
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\csc.exe.config
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\csc.rsp
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\csi.exe
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\csi.exe.config
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\csi.rsp
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.AppContext.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Console.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.IO.Compression.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.IO.Pipes.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Security.Claims.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.ValueTuple.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Xml.XPath.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\vbc.exe
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\vbc.exe.config
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\vbc.rsp
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\Antlr3.Runtime.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\BLL.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\DTO.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\EntityFramework.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\EntityFramework.SqlServer.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.AI.Web.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\Newtonsoft.Json.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Net.Http.Formatting.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Helpers.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Http.Cors.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Http.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Http.WebHost.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Mvc.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Optimization.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Razor.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.WebPages.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\WebGrease.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\DAL.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Cors.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\BLL.pdb
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\DTO.pdb
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\EntityFramework.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\EntityFramework.SqlServer.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\Newtonsoft.Json.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Net.Http.Formatting.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Helpers.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Http.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Http.WebHost.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Mvc.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Optimization.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.Razor.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.WebPages.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\Antlr3.Runtime.pdb
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.AI.Web.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\DAL.pdb
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\bin\DAL.dll.config
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\obj\Debug\kosherListApi.csprojAssemblyReference.cache
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\obj\Debug\kosherListApi.csproj.CoreCompileInputs.cache
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\obj\Debug\kosherListApi.csproj.CopyComplete
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\obj\Debug\kosherListApi.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\kosherListApi\obj\Debug\kosherListApi.pdb

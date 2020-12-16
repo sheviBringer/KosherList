@@ -1,0 +1,23 @@
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DAL\bin\Debug\DAL.dll.config
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DAL\bin\Debug\DAL.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DAL\bin\Debug\DAL.pdb
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DAL\obj\Debug\DAL.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DAL\obj\Debug\DAL.pdb
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DAL\bin\Debug\DAL.dll.config
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DAL\bin\Debug\DAL.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DAL\bin\Debug\DAL.pdb
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DAL\bin\Debug\EntityFramework.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DAL\bin\Debug\EntityFramework.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DAL\obj\Debug\DAL.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DAL\obj\Debug\DAL.pdb

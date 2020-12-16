@@ -1,0 +1,46 @@
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\bin\Debug\BLL.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\bin\Debug\BLL.pdb
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\bin\Debug\DAL.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\bin\Debug\DTO.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\bin\Debug\System.Web.Cors.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\bin\Debug\System.Web.Http.Cors.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\bin\Debug\System.Web.Http.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\bin\Debug\DAL.pdb
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\bin\Debug\DAL.dll.config
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\bin\Debug\DTO.pdb
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\obj\Debug\BLL.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\BLL\obj\Debug\BLL.pdb
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\bin\Debug\BLL.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\bin\Debug\BLL.pdb
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\bin\Debug\DAL.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\bin\Debug\DTO.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\bin\Debug\EntityFramework.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\bin\Debug\System.Web.Cors.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\bin\Debug\System.Web.Http.Cors.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\bin\Debug\System.Web.Http.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\bin\Debug\DAL.pdb
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\bin\Debug\DAL.dll.config
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\bin\Debug\DTO.pdb
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\bin\Debug\EntityFramework.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\obj\Debug\BLL.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\BLL\obj\Debug\BLL.pdb

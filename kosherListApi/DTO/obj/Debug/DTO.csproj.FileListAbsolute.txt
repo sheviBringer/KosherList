@@ -1,0 +1,24 @@
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DTO\bin\Debug\DTO.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DTO\bin\Debug\DTO.pdb
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DTO\bin\Debug\DAL.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DTO\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DTO\bin\Debug\DAL.pdb
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DTO\bin\Debug\DAL.dll.config
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DTO\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DTO\obj\Debug\DTO.dll
+C:\Users\Admin\Documents\הנדסת תוכנה\פרויקט גמר\kosherListApi\DTO\obj\Debug\DTO.pdb
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DTO\bin\Debug\DTO.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DTO\bin\Debug\DTO.pdb
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DTO\bin\Debug\DAL.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DTO\bin\Debug\EntityFramework.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DTO\bin\Debug\DAL.pdb
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DTO\bin\Debug\DAL.dll.config
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DTO\bin\Debug\EntityFramework.xml
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DTO\obj\Debug\DTO.dll
+C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DTO\obj\Debug\DTO.pdb

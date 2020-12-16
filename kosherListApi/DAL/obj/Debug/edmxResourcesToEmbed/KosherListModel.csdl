@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KosherListModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Store_tbl">
+    <Key>
+      <PropertyRef Name="codeStore" />
+    </Key>
+    <Property Name="codeStore" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nameStore" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="addressStore" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="clasificationStore" Type="Int32" />
+    <Property Name="activityTimeStart" Type="Time" Precision="7" />
+    <Property Name="activityTimeEnd" Type="Time" Precision="7" />
+    <NavigationProperty Name="Updates_tbl" Relationship="Self.FK__Updates_t__codeS__3E52440B" FromRole="Store_tbl" ToRole="Updates_tbl" />
+  </EntityType>
+  <EntityType Name="Updates_tbl">
+    <Key>
+      <PropertyRef Name="updatesId" />
+    </Key>
+    <Property Name="updatesId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="codeStore" Type="Int32" Nullable="false" />
+    <Property Name="codeWorker" Type="Int32" Nullable="false" />
+    <Property Name="dateVisit" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="begginingTime" Type="Time" Precision="7" />
+    <Property Name="exitingTime" Type="Time" Precision="7" />
+    <Property Name="remarks" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="result" Type="Int32" />
+    <NavigationProperty Name="Store_tbl" Relationship="Self.FK__Updates_t__codeS__3E52440B" FromRole="Updates_tbl" ToRole="Store_tbl" />
+    <NavigationProperty Name="Worker_tbl" Relationship="Self.FK__Updates_t__codeW__3F466844" FromRole="Updates_tbl" ToRole="Worker_tbl" />
+  </EntityType>
+  <EntityType Name="Users_tbl">
+    <Key>
+      <PropertyRef Name="userId" />
+    </Key>
+    <Property Name="userId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userUserName" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="userPassword" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="userRole" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Worker_tbl">
+    <Key>
+      <PropertyRef Name="codeWorker" />
+    </Key>
+    <Property Name="codeWorker" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nameWorker" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="addressWorker" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="telWorker" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="experience" Type="Int32" />
+    <Property Name="dateStart" Type="DateTime" Precision="0" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="mobility" Type="Boolean" />
+    <NavigationProperty Name="Updates_tbl" Relationship="Self.FK__Updates_t__codeW__3F466844" FromRole="Worker_tbl" ToRole="Updates_tbl" />
+  </EntityType>
+  <Association Name="FK__Updates_t__codeS__3E52440B">
+    <End Role="Store_tbl" Type="Self.Store_tbl" Multiplicity="1" />
+    <End Role="Updates_tbl" Type="Self.Updates_tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Store_tbl">
+        <PropertyRef Name="codeStore" />
+      </Principal>
+      <Dependent Role="Updates_tbl">
+        <PropertyRef Name="codeStore" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Updates_t__codeW__3F466844">
+    <End Role="Worker_tbl" Type="Self.Worker_tbl" Multiplicity="1" />
+    <End Role="Updates_tbl" Type="Self.Updates_tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Worker_tbl">
+        <PropertyRef Name="codeWorker" />
+      </Principal>
+      <Dependent Role="Updates_tbl">
+        <PropertyRef Name="codeWorker" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="KosherListEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Store_tbl" EntityType="Self.Store_tbl" />
+    <EntitySet Name="Updates_tbl" EntityType="Self.Updates_tbl" />
+    <EntitySet Name="Users_tbl" EntityType="Self.Users_tbl" />
+    <EntitySet Name="Worker_tbl" EntityType="Self.Worker_tbl" />
+    <AssociationSet Name="FK__Updates_t__codeS__3E52440B" Association="Self.FK__Updates_t__codeS__3E52440B">
+      <End Role="Store_tbl" EntitySet="Store_tbl" />
+      <End Role="Updates_tbl" EntitySet="Updates_tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Updates_t__codeW__3F466844" Association="Self.FK__Updates_t__codeW__3F466844">
+      <End Role="Worker_tbl" EntitySet="Worker_tbl" />
+      <End Role="Updates_tbl" EntitySet="Updates_tbl" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

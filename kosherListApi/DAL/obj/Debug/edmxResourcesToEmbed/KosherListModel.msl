@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="KosherListModelStoreContainer" CdmEntityContainer="KosherListEntities">
+    <EntitySetMapping Name="Store_tbl">
+      <EntityTypeMapping TypeName="KosherListModel.Store_tbl">
+        <MappingFragment StoreEntitySet="Store_tbl">
+          <ScalarProperty Name="codeStore" ColumnName="codeStore" />
+          <ScalarProperty Name="nameStore" ColumnName="nameStore" />
+          <ScalarProperty Name="addressStore" ColumnName="addressStore" />
+          <ScalarProperty Name="clasificationStore" ColumnName="clasificationStore" />
+          <ScalarProperty Name="activityTimeStart" ColumnName="activityTimeStart" />
+          <ScalarProperty Name="activityTimeEnd" ColumnName="activityTimeEnd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Updates_tbl">
+      <EntityTypeMapping TypeName="KosherListModel.Updates_tbl">
+        <MappingFragment StoreEntitySet="Updates_tbl">
+          <ScalarProperty Name="updatesId" ColumnName="updatesId" />
+          <ScalarProperty Name="codeStore" ColumnName="codeStore" />
+          <ScalarProperty Name="codeWorker" ColumnName="codeWorker" />
+          <ScalarProperty Name="dateVisit" ColumnName="dateVisit" />
+          <ScalarProperty Name="begginingTime" ColumnName="begginingTime" />
+          <ScalarProperty Name="exitingTime" ColumnName="exitingTime" />
+          <ScalarProperty Name="remarks" ColumnName="remarks" />
+          <ScalarProperty Name="result" ColumnName="result" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users_tbl">
+      <EntityTypeMapping TypeName="KosherListModel.Users_tbl">
+        <MappingFragment StoreEntitySet="Users_tbl">
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="userUserName" ColumnName="userUserName" />
+          <ScalarProperty Name="userPassword" ColumnName="userPassword" />
+          <ScalarProperty Name="userRole" ColumnName="userRole" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Worker_tbl">
+      <EntityTypeMapping TypeName="KosherListModel.Worker_tbl">
+        <MappingFragment StoreEntitySet="Worker_tbl">
+          <ScalarProperty Name="codeWorker" ColumnName="codeWorker" />
+          <ScalarProperty Name="nameWorker" ColumnName="nameWorker" />
+          <ScalarProperty Name="addressWorker" ColumnName="addressWorker" />
+          <ScalarProperty Name="telWorker" ColumnName="telWorker" />
+          <ScalarProperty Name="experience" ColumnName="experience" />
+          <ScalarProperty Name="dateStart" ColumnName="dateStart" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="mobility" ColumnName="mobility" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
