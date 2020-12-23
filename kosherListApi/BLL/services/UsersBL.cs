@@ -10,7 +10,7 @@ using BLL.convertion;
 
 namespace BLL.services
 {
-   public class UsersBL
+    public class UsersBL
     {
         public static List<UsersDto> GetAllUsers()
         {
@@ -23,3 +23,4 @@ namespace BLL.services
             }
         }
     }
+}

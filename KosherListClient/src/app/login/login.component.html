@@ -1,15 +1,22 @@
+<form #myForm="ngForm">
 <div class="example-container">
   <mat-form-field appearance="fill">
-    <mat-label>שם משתמש</mat-label>
-    <input matInput>
+    <mat-label >שם משתמש</mat-label>
+    <input type="text"  [(ngModel)]="name" name="l"  required matInput>
   </mat-form-field>
   
   <br>
   <mat-form-field appearance="fill">
       <mat-label>סיסמא</mat-label>
-      <input matInput [type]="hide ? 'password' : 'text'">
+      <input type="text" [(ngModel)]="Password"  name="ls"  required  matInput [type]="hide ? 'password' : 'text'">
       <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
       <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
       </button>
     </mat-form-field>
+    <br>
+    <input type="submit" name="lss" [disabled]="myForm.invalid" value="login" 
+    (click)="searchuser()">
+    <div *ngIf="flag">" try again or register"></div>
+
 </div>
+</form>

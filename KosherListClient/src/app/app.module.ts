@@ -6,18 +6,24 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './login/login.component';
 import { MatSelectModule,MatRadioModule } from '@angular/material';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule,MatIconModule, MatDatepickerModule, MatNativeDateModule } from '@angular/material';
 import { UpdatesComponent } from './updates/updates.component';
+import { HttpClientModule } from '@angular/common/http';
+import { RegisterComponent } from './register/register.component';
+import { StoreComponent } from './store/store.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    UpdatesComponent
+    UpdatesComponent,
+    RegisterComponent,
+    StoreComponent
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
@@ -28,7 +34,8 @@ import { UpdatesComponent } from './updates/updates.component';
     FormsModule,
     MatRadioModule,
  MatDatepickerModule,
-  MatNativeDateModule
+  MatNativeDateModule,
+  ReactiveFormsModule
 
   ],
   providers: [],

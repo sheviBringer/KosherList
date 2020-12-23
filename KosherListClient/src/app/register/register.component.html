@@ -1,0 +1,58 @@
+<p>register works!</p>
+<form #myForm="ngForm" (ngSubmit)="register()">
+
+<p>
+    <mat-form-field appearance="legacy">
+      <mat-label>שם משגיח</mat-label>
+      <input type="text" [(ngModel)]="worker.nameWorker" name="wn" required matInput >    
+    </mat-form-field>
+  </p>
+
+  <p>
+    <mat-form-field appearance="legacy">
+      <mat-label>כתובת</mat-label>
+      <input type="text" [(ngModel)]="worker.addressWorker" name="wa" required matInput >    
+    </mat-form-field>
+  </p>
+
+  <p>
+    <mat-form-field appearance="legacy">
+      <mat-label>טלפון</mat-label>
+      <input type="tel" [(ngModel)]="worker.telWorker" name="wt" required  matInput >    
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field appearance="legacy">
+      <mat-label>תאריך התחלה</mat-label>
+      <input type="date" [(ngModel)]="worker.dateStart" name="wd" required matInput >    
+    </mat-form-field>
+  </p>
+  <p>
+
+    <mat-form-field appearance="legacy">
+      <mat-label>מייל</mat-label>
+      <input type="text" [(ngModel)]="worker.email" name="we" matInput >    
+    </mat-form-field>
+  </p>
+
+  <p>
+    <label>האם נייד?</label>
+    <br>
+    <mat-radio-group aria-label="Select an option">
+        <mat-radio-button value="1">כן</mat-radio-button><br>
+        <mat-radio-button value="2">לא</mat-radio-button>
+      </mat-radio-group>
+  </p>
+  <!-- <input type="radio" [(ngModel)]="worker.mobility" name="wm" required  >     -->
+
+  <p>
+  
+    <mat-form-field appearance="legacy">
+      <mat-label>סיסמא</mat-label>
+      <input type="text"  name="wp" required matInput >    
+      <!-- [(ngModel)]="worker.password" צריך להוסיף בטבלה של worker ואז לשים בתוך באינפוט -->
+    </mat-form-field>
+  </p>
+  
+      
+</form>

@@ -1,0 +1,28 @@
+<div>Stores
+    <h1 *ngFor="let store of stores">{{store.nameStore}}</h1>
+</div>
+<form [formGroup]="form" (ngSubmit)="create()">
+    <!-- nameStore:string;
+addressStore:string;
+clasificationStore:number;
+activityTimeStart:Date;
+activityTimeEnd:Date; -->
+    <p>
+        <mat-form-field appearance="legacy">
+          <mat-label>שם חנות</mat-label>
+          <input matInput formControlName="nameStore" required >    
+        </mat-form-field>
+        <mat-error *ngIf="form.get('nameStore').errors?.required"> חובה להזין שם.</mat-error>
+      </p>
+      <p>
+        <mat-form-field appearance="legacy">
+          <mat-label>שם חנות</mat-label>
+          <input matInput >      
+        </mat-form-field>
+      </p>
+     
+          <button mat-button type="submit">צור חנות</button>
+     
+
+      
+    </form>

@@ -10,9 +10,9 @@ using System.Web.Http.Cors;
 
 namespace kosherListApi.Controllers
 {
-
+ 
     [RoutePrefix("api/store")]
-    [EnableCors(origins: "*", headers: "*", methods: "*")]
+  
     public class StoreController : ApiController
     {
         [HttpGet]
@@ -22,7 +22,16 @@ namespace kosherListApi.Controllers
            return Ok(StoreBL.GetAllStores());
            
         }
+
+        [HttpPost]
+        [Route("AddStore")]
+        public IHttpActionResult AddStore(StoreDto store)
+        {
+            return Ok(StoreBL.AddStore(store));
+
+        }
     }
+
 //    api/store/getAllStores
 
 

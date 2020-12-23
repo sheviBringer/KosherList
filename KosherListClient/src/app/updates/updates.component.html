@@ -1,7 +1,7 @@
 
 <router-outlet></router-outlet>
 
-
+<form #myForm="ngForm" (ngSubmit)="update()">
 <p>
     <mat-form-field appearance="legacy">
       <mat-label>שם משגיח</mat-label>
@@ -17,12 +17,15 @@
   
   <section>
     <div class="example-button-row">
-      <button mat-button>כניסה</button>
-    </div>
+      <button mat-button (click)="btnEntry()">כניסה</button>
+    </div><br>
+    <div >{{dateEntry |date: 'dd-MMM-yy h:mm:ss a '}}</div>
     <div class="example-button-row">
-        <button mat-button>יציאה</button>
-      </div>
-  </section>
+        <button mat-button (click)="btnExit()">יציאה</button>
+      </div><br>
+      <div>{{dateExit |date :'dd-MMM-yy h:mm:ss a '}}</div>
+ 
+    </section>
   <br>
 <!-- <div>
   <mat-form-field appearance="fill">
@@ -42,11 +45,11 @@
   <mat-radio-group
     aria-labelledby="example-radio-group-label"
     class="example-radio-group"
-    [(ngModel)]="testResult">
+    [(ngModel)]="testResult" name="radio">
     <mat-radio-button class="example-radio-button" *ngFor="let test of choiceTest" [value]="test">
       {{test}}
     </mat-radio-button>
   </mat-radio-group>
   
-  
+</form>
  
