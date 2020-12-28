@@ -22,5 +22,29 @@ namespace BLL.services
 
             }
         }
+        public static bool AddUser(UsersDto User)
+        {
+            using (KosherListEntities db = new KosherListEntities())
+            {
+                var newUser = UsersConvertion.convertToUser(User);
+                db.Users_tbl.Add(newUser);
+                db.SaveChanges();
+                return true;
+
+            }
+        }
+        public static bool UpdateUser(UsersDto user)
+        {
+            using (KosherListEntities db = new KosherListEntities())
+            {
+
+                var updatedUser = db.Users_tbl.FirstOrDefault(x => x.userPassword == user.userPassword);
+                updatedUser.userUserName = user.userUserName;
+                //TODO
+                db.SaveChanges();
+                return true;
+
+            }
+        }
     }
 }

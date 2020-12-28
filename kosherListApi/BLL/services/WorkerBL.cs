@@ -11,13 +11,37 @@ namespace BLL.services
 {
     public class WorkerBL
     {
-        public static List<WorkerDto> GetAllWorker()
+        public static List<WorkerDto> GetAllWorkers()
         {
             using (KosherListEntities db = new KosherListEntities())
             {
 
                 var worker = db.Worker_tbl.ToList();
                 return WorkerConvertion.convertToListDto(worker);
+
+            }
+        }
+        public static bool AddWorker(WorkerDto worker)
+        {
+            using (KosherListEntities db = new KosherListEntities())
+            {
+                var newWorker = WorkerConvertion.convertToStore(worker);
+                db.Worker_tbl.Add(newWorker);
+                db.SaveChanges();
+                return true;
+
+            }
+        }
+        public static bool WorkerStore(WorkerDto worker)
+        {
+            using (KosherListEntities db = new KosherListEntities())
+            {
+
+                var updatedWorker = db.Worker_tbl.FirstOrDefault(x => x.codeWorker == worker.codeWorker);
+                updatedWorker.nameWorker = worker.nameWorker;
+                //TODO
+                db.SaveChanges();
+                return true;
 
             }
         }

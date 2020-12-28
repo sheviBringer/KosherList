@@ -1,44 +1,44 @@
 <p>register works!</p>
-<form #myForm="ngForm" (ngSubmit)="register()">
+<form [formGroup]="form" (ngSubmit)="register()">
 
 <p>
     <mat-form-field appearance="legacy">
       <mat-label>שם משגיח</mat-label>
-      <input type="text" [(ngModel)]="worker.nameWorker" name="wn" required matInput >    
+      <input type="text" formControlName="nameWorker" required matInput >    
     </mat-form-field>
   </p>
 
   <p>
     <mat-form-field appearance="legacy">
       <mat-label>כתובת</mat-label>
-      <input type="text" [(ngModel)]="worker.addressWorker" name="wa" required matInput >    
+      <input type="text" formControlName="addressWorker" required matInput >    
     </mat-form-field>
   </p>
 
   <p>
     <mat-form-field appearance="legacy">
       <mat-label>טלפון</mat-label>
-      <input type="tel" [(ngModel)]="worker.telWorker" name="wt" required  matInput >    
+      <input type="tel" formControlName="telWorker" required  matInput >    
     </mat-form-field>
   </p>
   <p>
     <mat-form-field appearance="legacy">
       <mat-label>תאריך התחלה</mat-label>
-      <input type="date" [(ngModel)]="worker.dateStart" name="wd" required matInput >    
+      <input type="date" formControlName="dateStart" required matInput >    
     </mat-form-field>
   </p>
   <p>
 
     <mat-form-field appearance="legacy">
       <mat-label>מייל</mat-label>
-      <input type="text" [(ngModel)]="worker.email" name="we" matInput >    
+      <input type="text" formControlName="email" matInput >    
     </mat-form-field>
   </p>
 
   <p>
     <label>האם נייד?</label>
     <br>
-    <mat-radio-group aria-label="Select an option">
+    <mat-radio-group aria-label="Select an option" formControlName="mobility">
         <mat-radio-button value="1">כן</mat-radio-button><br>
         <mat-radio-button value="2">לא</mat-radio-button>
       </mat-radio-group>
@@ -54,5 +54,6 @@
     </mat-form-field>
   </p>
   
+  <button mat-button type="submit">רשום עובד חדש</button>
       
 </form>

@@ -15,14 +15,8 @@ export class GetServerService {
   getStores():Observable<Store[]>{
     return this.Http.get<Store[]>("http://localhost:43048/api/store/getAllStores");
   }
-  getUsers():Observable<Users[]>{
-   return this.Http.get<Users[]>("http://localhost:43048/api/Users/getAllUsers");
-
-  };
-  getWorker():Observable<Worker[]>{
-    return this.Http.get<Worker[]>("http://localhost:43048/api/Worker/getAllWorker");
- 
-   };
+  
+  
    createStore(newStore: Store):Observable<boolean>{
     return this.Http.post<boolean>("http://localhost:43048/api/store/AddStore",newStore);
   }

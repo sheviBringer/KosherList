@@ -4,5 +4,5 @@ export class Users
     userUserName:string;
     userPassword:string;
     userRole:number;
-
+    
 }
