@@ -13,6 +13,13 @@ import { UpdatesComponent } from './updates/updates.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RegisterComponent } from './register/register.component';
 import { StoreComponent } from './store/store.component';
+import { CalendarModule, DateAdapter } from 'angular-calendar';
+import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
+import { TimetableComponent } from './timetable/timetable.component';
+import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
+import { CommonModule } from '@angular/common';
+import { FlatpickrModule } from 'angularx-flatpickr';
+import { EntranceComponent } from './entrance/entrance.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +27,9 @@ import { StoreComponent } from './store/store.component';
     LoginComponent,
     UpdatesComponent,
     RegisterComponent,
-    StoreComponent
+    StoreComponent,
+    TimetableComponent,
+    EntranceComponent
   ],
   imports: [
     HttpClientModule,
@@ -36,7 +45,12 @@ import { StoreComponent } from './store/store.component';
  MatDatepickerModule, 
   MatNativeDateModule,
   ReactiveFormsModule,
-  RouterModule
+  NgbModalModule,
+  RouterModule,
+  FlatpickrModule.forRoot(),
+
+  CommonModule,
+  CalendarModule.forRoot({ provide: DateAdapter, useFactory: adapterFactory })
   ],
   providers: [],
   bootstrap: [AppComponent],
