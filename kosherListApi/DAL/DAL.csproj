@@ -102,6 +102,9 @@
     <Compile Include="Users_tbl.cs">
       <DependentUpon>KosherListModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="WorkerScheduler_tbl.cs">
+      <DependentUpon>KosherListModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Worker_tbl.cs">
       <DependentUpon>KosherListModel.tt</DependentUpon>
     </Compile>

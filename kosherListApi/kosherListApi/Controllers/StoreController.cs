@@ -26,6 +26,7 @@ namespace kosherListApi.Controllers
         [HttpPost]
         [Route("AddStore")]
         public IHttpActionResult AddStore(StoreDto store)
+        
         {
             return Ok(StoreBL.AddStore(store));
 

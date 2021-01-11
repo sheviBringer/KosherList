@@ -51,5 +51,21 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="WorkerScheduler_tbl">
+      <EntityTypeMapping TypeName="KosherListModel.WorkerScheduler_tbl">
+        <MappingFragment StoreEntitySet="WorkerScheduler_tbl">
+          <ScalarProperty Name="day7" ColumnName="day7" />
+          <ScalarProperty Name="day6" ColumnName="day6" />
+          <ScalarProperty Name="day5" ColumnName="day5" />
+          <ScalarProperty Name="day4" ColumnName="day4" />
+          <ScalarProperty Name="day3" ColumnName="day3" />
+          <ScalarProperty Name="day2" ColumnName="day2" />
+          <ScalarProperty Name="day1" ColumnName="day1" />
+          <ScalarProperty Name="hour" ColumnName="hour" />
+          <ScalarProperty Name="workerId" ColumnName="workerId" />
+          <ScalarProperty Name="workerSchedulerID" ColumnName="workerSchedulerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

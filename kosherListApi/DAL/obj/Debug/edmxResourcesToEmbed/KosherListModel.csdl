@@ -87,5 +87,57 @@
       <End Role="Worker_tbl" EntitySet="Worker_tbl" />
       <End Role="Updates_tbl" EntitySet="Updates_tbl" />
     </AssociationSet>
+    <EntitySet Name="WorkerScheduler_tbl" EntityType="KosherListModel.WorkerScheduler_tbl" />
+    <AssociationSet Name="FK_WorkerId_Workers" Association="KosherListModel.FK_WorkerId_Workers">
+      <End Role="WorkerScheduler_tbl" EntitySet="WorkerScheduler_tbl" />
+      <End Role="WorkerScheduler_tbl1" EntitySet="WorkerScheduler_tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_WorkerScheduler_tbl_WorkerScheduler_tbl" Association="KosherListModel.FK_WorkerScheduler_tbl_WorkerScheduler_tbl">
+      <End Role="WorkerScheduler_tbl" EntitySet="WorkerScheduler_tbl" />
+      <End Role="WorkerScheduler_tbl1" EntitySet="WorkerScheduler_tbl" />
+    </AssociationSet>
   </EntityContainer>
+  <EntityType Name="WorkerScheduler_tbl">
+    <Key>
+      <PropertyRef Name="workerSchedulerID" />
+    </Key>
+    <Property Name="workerSchedulerID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="workerId" Type="Int32" Nullable="false" />
+    <Property Name="hour" Type="Int32" Nullable="false" />
+    <Property Name="day1" Type="Int32" />
+    <Property Name="day2" Type="Int32" />
+    <Property Name="day3" Type="Int32" />
+    <Property Name="day4" Type="Int32" />
+    <Property Name="day5" Type="Int32" />
+    <Property Name="day6" Type="Int32" />
+    <Property Name="day7" Type="Int32" />
+    <NavigationProperty Name="WorkerScheduler_tbl1" Relationship="KosherListModel.FK_WorkerId_Workers" FromRole="WorkerScheduler_tbl" ToRole="WorkerScheduler_tbl1" />
+    <NavigationProperty Name="WorkerScheduler_tbl2" Relationship="KosherListModel.FK_WorkerId_Workers" FromRole="WorkerScheduler_tbl1" ToRole="WorkerScheduler_tbl" />
+    <NavigationProperty Name="WorkerScheduler_tbl11" Relationship="KosherListModel.FK_WorkerScheduler_tbl_WorkerScheduler_tbl" FromRole="WorkerScheduler_tbl" ToRole="WorkerScheduler_tbl1" />
+    <NavigationProperty Name="WorkerScheduler_tbl3" Relationship="KosherListModel.FK_WorkerScheduler_tbl_WorkerScheduler_tbl" FromRole="WorkerScheduler_tbl1" ToRole="WorkerScheduler_tbl" />
+  </EntityType>
+  <Association Name="FK_WorkerId_Workers">
+    <End Type="KosherListModel.WorkerScheduler_tbl" Role="WorkerScheduler_tbl" Multiplicity="1" />
+    <End Type="KosherListModel.WorkerScheduler_tbl" Role="WorkerScheduler_tbl1" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="WorkerScheduler_tbl">
+        <PropertyRef Name="workerSchedulerID" />
+      </Principal>
+      <Dependent Role="WorkerScheduler_tbl1">
+        <PropertyRef Name="workerSchedulerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_WorkerScheduler_tbl_WorkerScheduler_tbl">
+    <End Type="KosherListModel.WorkerScheduler_tbl" Role="WorkerScheduler_tbl" Multiplicity="1" />
+    <End Type="KosherListModel.WorkerScheduler_tbl" Role="WorkerScheduler_tbl1" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="WorkerScheduler_tbl">
+        <PropertyRef Name="workerSchedulerID" />
+      </Principal>
+      <Dependent Role="WorkerScheduler_tbl1">
+        <PropertyRef Name="workerSchedulerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
 </Schema>

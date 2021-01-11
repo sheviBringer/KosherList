@@ -34,24 +34,32 @@
       <input type="text" formControlName="email" matInput >    
     </mat-form-field>
   </p>
-
+  
   <p>
     <label>האם נייד?</label>
     <br>
     <mat-radio-group aria-label="Select an option" formControlName="mobility">
-        <mat-radio-button value="1">כן</mat-radio-button><br>
-        <mat-radio-button value="2">לא</mat-radio-button>
+        <mat-radio-button  value=true (click)="saveValueRadio($event,true)" >כן
+        </mat-radio-button><br>
+        <mat-radio-button  value=false (click)="saveValueRadio($event,false)"> לא
+        </mat-radio-button>
       </mat-radio-group>
   </p>
-  <!-- <input type="radio" [(ngModel)]="worker.mobility" name="wm" required  >     -->
 
   <p>
-  
-    <mat-form-field appearance="legacy">
+    <mat-form-field appearance="fill">
       <mat-label>סיסמא</mat-label>
-      <input type="text"  name="wp" required matInput >    
-      <!-- [(ngModel)]="worker.password" צריך להוסיף בטבלה של worker ואז לשים בתוך באינפוט -->
+      <input type="text"  required  matInput [type]="hide ? 'password' : 'text'">
+      <!-- [(ngModel)]="worker.password" צריך להוסיף בטבלה של worker ואז לשים בתוך באינפוט  -->
+      <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+      <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+      </button>
     </mat-form-field>
+    <!-- <mat-form-field appearance="fill" >
+      <mat-label >סיסמא</mat-label>
+      <input type="text"  name="wp" required matInput [type]="hide ? 'password' : 'text'">    
+       [(ngModel)]="worker.password" צריך להוסיף בטבלה של worker ואז לשים בתוך באינפוט 
+    </mat-form-field> -->
   </p>
   
   <button mat-button type="submit">רשום עובד חדש</button>

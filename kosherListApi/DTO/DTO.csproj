@@ -45,6 +45,7 @@
     <Compile Include="UpdatesDto.cs" />
     <Compile Include="UsersDto.cs" />
     <Compile Include="WorkerDto.cs" />
+    <Compile Include="WorkerSchedulerDto.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

@@ -16,7 +16,6 @@ C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DAL\bin\Debug\EntityFra
 C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DAL\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DAL\bin\Debug\EntityFramework.xml
 C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DAL\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
 C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\WIN10\Desktop\פרויקט גמר\kosherListApi\DAL\obj\Debug\DAL.dll

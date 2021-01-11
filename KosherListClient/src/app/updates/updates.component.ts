@@ -15,6 +15,7 @@ dateExit:Date;
   choiceTest: string[] = ['excelent', 'improvementRequired', 'bad'];
 
   ngOnInit() {
+    
   }
   
   btnEntry()

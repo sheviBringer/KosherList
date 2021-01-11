@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="KosherListModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="KosherListModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Store_tbl">
           <Key>
             <PropertyRef Name="codeStore" />
@@ -51,7 +51,22 @@
           <Property Name="email" Type="varchar" MaxLength="50" />
           <Property Name="mobility" Type="bit" />
         </EntityType>
-        <Association Name="FK__Updates_t__codeS__3E52440B">
+        <EntityType Name="WorkerScheduler_tbl">
+          <Key>
+            <PropertyRef Name="workerSchedulerID" />
+          </Key>
+          <Property Name="workerSchedulerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="workerId" Type="int" Nullable="false" />
+          <Property Name="hour" Type="int" Nullable="false" />
+          <Property Name="day1" Type="int" />
+          <Property Name="day2" Type="int" />
+          <Property Name="day3" Type="int" />
+          <Property Name="day4" Type="int" />
+          <Property Name="day5" Type="int" />
+          <Property Name="day6" Type="int" />
+          <Property Name="day7" Type="int" />
+        </EntityType>
+        <Association Name="FK__Updates_t__codeS__403A8C7D">
           <End Role="Store_tbl" Type="Self.Store_tbl" Multiplicity="1" />
           <End Role="Updates_tbl" Type="Self.Updates_tbl" Multiplicity="*" />
           <ReferentialConstraint>
@@ -63,7 +78,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Updates_t__codeW__3F466844">
+        <Association Name="FK__Updates_t__codeW__412EB0B6">
           <End Role="Worker_tbl" Type="Self.Worker_tbl" Multiplicity="1" />
           <End Role="Updates_tbl" Type="Self.Updates_tbl" Multiplicity="*" />
           <ReferentialConstraint>
@@ -75,22 +90,54 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="FK_WorkerId_Workers">
+          <End Role="WorkerScheduler_tbl" Type="Self.WorkerScheduler_tbl" Multiplicity="1" />
+          <End Role="WorkerScheduler_tbl1" Type="Self.WorkerScheduler_tbl" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="WorkerScheduler_tbl">
+              <PropertyRef Name="workerSchedulerID" />
+            </Principal>
+            <Dependent Role="WorkerScheduler_tbl1">
+              <PropertyRef Name="workerSchedulerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WorkerScheduler_tbl_WorkerScheduler_tbl">
+          <End Role="WorkerScheduler_tbl" Type="Self.WorkerScheduler_tbl" Multiplicity="1" />
+          <End Role="WorkerScheduler_tbl1" Type="Self.WorkerScheduler_tbl" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="WorkerScheduler_tbl">
+              <PropertyRef Name="workerSchedulerID" />
+            </Principal>
+            <Dependent Role="WorkerScheduler_tbl1">
+              <PropertyRef Name="workerSchedulerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <EntityContainer Name="KosherListModelStoreContainer">
           <EntitySet Name="Store_tbl" EntityType="Self.Store_tbl" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Updates_tbl" EntityType="Self.Updates_tbl" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Users_tbl" EntityType="Self.Users_tbl" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Worker_tbl" EntityType="Self.Worker_tbl" Schema="dbo" store:Type="Tables" />
-          <AssociationSet Name="FK__Updates_t__codeS__3E52440B" Association="Self.FK__Updates_t__codeS__3E52440B">
+          <EntitySet Name="WorkerScheduler_tbl" EntityType="Self.WorkerScheduler_tbl" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Updates_t__codeS__403A8C7D" Association="Self.FK__Updates_t__codeS__403A8C7D">
             <End Role="Store_tbl" EntitySet="Store_tbl" />
             <End Role="Updates_tbl" EntitySet="Updates_tbl" />
           </AssociationSet>
-          <AssociationSet Name="FK__Updates_t__codeW__3F466844" Association="Self.FK__Updates_t__codeW__3F466844">
+          <AssociationSet Name="FK__Updates_t__codeW__412EB0B6" Association="Self.FK__Updates_t__codeW__412EB0B6">
             <End Role="Worker_tbl" EntitySet="Worker_tbl" />
             <End Role="Updates_tbl" EntitySet="Updates_tbl" />
           </AssociationSet>
+          <AssociationSet Name="FK_WorkerId_Workers" Association="Self.FK_WorkerId_Workers">
+            <End Role="WorkerScheduler_tbl" EntitySet="WorkerScheduler_tbl" />
+            <End Role="WorkerScheduler_tbl1" EntitySet="WorkerScheduler_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WorkerScheduler_tbl_WorkerScheduler_tbl" Association="Self.FK_WorkerScheduler_tbl_WorkerScheduler_tbl">
+            <End Role="WorkerScheduler_tbl" EntitySet="WorkerScheduler_tbl" />
+            <End Role="WorkerScheduler_tbl1" EntitySet="WorkerScheduler_tbl" />
+          </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="KosherListModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -181,7 +228,59 @@
             <End Role="Worker_tbl" EntitySet="Worker_tbl" />
             <End Role="Updates_tbl" EntitySet="Updates_tbl" />
           </AssociationSet>
+          <EntitySet Name="WorkerScheduler_tbl" EntityType="KosherListModel.WorkerScheduler_tbl" />
+          <AssociationSet Name="FK_WorkerId_Workers" Association="KosherListModel.FK_WorkerId_Workers">
+            <End Role="WorkerScheduler_tbl" EntitySet="WorkerScheduler_tbl" />
+            <End Role="WorkerScheduler_tbl1" EntitySet="WorkerScheduler_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WorkerScheduler_tbl_WorkerScheduler_tbl" Association="KosherListModel.FK_WorkerScheduler_tbl_WorkerScheduler_tbl">
+            <End Role="WorkerScheduler_tbl" EntitySet="WorkerScheduler_tbl" />
+            <End Role="WorkerScheduler_tbl1" EntitySet="WorkerScheduler_tbl" />
+          </AssociationSet>
         </EntityContainer>
+        <EntityType Name="WorkerScheduler_tbl">
+          <Key>
+            <PropertyRef Name="workerSchedulerID" />
+          </Key>
+          <Property Name="workerSchedulerID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="workerId" Type="Int32" Nullable="false" />
+          <Property Name="hour" Type="Int32" Nullable="false" />
+          <Property Name="day1" Type="Int32" />
+          <Property Name="day2" Type="Int32" />
+          <Property Name="day3" Type="Int32" />
+          <Property Name="day4" Type="Int32" />
+          <Property Name="day5" Type="Int32" />
+          <Property Name="day6" Type="Int32" />
+          <Property Name="day7" Type="Int32" />
+          <NavigationProperty Name="WorkerScheduler_tbl1" Relationship="KosherListModel.FK_WorkerId_Workers" FromRole="WorkerScheduler_tbl" ToRole="WorkerScheduler_tbl1" />
+          <NavigationProperty Name="WorkerScheduler_tbl2" Relationship="KosherListModel.FK_WorkerId_Workers" FromRole="WorkerScheduler_tbl1" ToRole="WorkerScheduler_tbl" />
+          <NavigationProperty Name="WorkerScheduler_tbl11" Relationship="KosherListModel.FK_WorkerScheduler_tbl_WorkerScheduler_tbl" FromRole="WorkerScheduler_tbl" ToRole="WorkerScheduler_tbl1" />
+          <NavigationProperty Name="WorkerScheduler_tbl3" Relationship="KosherListModel.FK_WorkerScheduler_tbl_WorkerScheduler_tbl" FromRole="WorkerScheduler_tbl1" ToRole="WorkerScheduler_tbl" />
+        </EntityType>
+        <Association Name="FK_WorkerId_Workers">
+          <End Type="KosherListModel.WorkerScheduler_tbl" Role="WorkerScheduler_tbl" Multiplicity="1" />
+          <End Type="KosherListModel.WorkerScheduler_tbl" Role="WorkerScheduler_tbl1" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="WorkerScheduler_tbl">
+              <PropertyRef Name="workerSchedulerID" />
+            </Principal>
+            <Dependent Role="WorkerScheduler_tbl1">
+              <PropertyRef Name="workerSchedulerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WorkerScheduler_tbl_WorkerScheduler_tbl">
+          <End Type="KosherListModel.WorkerScheduler_tbl" Role="WorkerScheduler_tbl" Multiplicity="1" />
+          <End Type="KosherListModel.WorkerScheduler_tbl" Role="WorkerScheduler_tbl1" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="WorkerScheduler_tbl">
+              <PropertyRef Name="workerSchedulerID" />
+            </Principal>
+            <Dependent Role="WorkerScheduler_tbl1">
+              <PropertyRef Name="workerSchedulerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -235,6 +334,22 @@
                 <ScalarProperty Name="dateStart" ColumnName="dateStart" />
                 <ScalarProperty Name="email" ColumnName="email" />
                 <ScalarProperty Name="mobility" ColumnName="mobility" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="WorkerScheduler_tbl">
+            <EntityTypeMapping TypeName="KosherListModel.WorkerScheduler_tbl">
+              <MappingFragment StoreEntitySet="WorkerScheduler_tbl">
+                <ScalarProperty Name="day7" ColumnName="day7" />
+                <ScalarProperty Name="day6" ColumnName="day6" />
+                <ScalarProperty Name="day5" ColumnName="day5" />
+                <ScalarProperty Name="day4" ColumnName="day4" />
+                <ScalarProperty Name="day3" ColumnName="day3" />
+                <ScalarProperty Name="day2" ColumnName="day2" />
+                <ScalarProperty Name="day1" ColumnName="day1" />
+                <ScalarProperty Name="hour" ColumnName="hour" />
+                <ScalarProperty Name="workerId" ColumnName="workerId" />
+                <ScalarProperty Name="workerSchedulerID" ColumnName="workerSchedulerID" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

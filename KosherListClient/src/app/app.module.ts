@@ -29,7 +29,7 @@ import { EntranceComponent } from './entrance/entrance.component';
     RegisterComponent,
     StoreComponent,
     TimetableComponent,
-    EntranceComponent
+    EntranceComponent,
   ],
   imports: [
     HttpClientModule,

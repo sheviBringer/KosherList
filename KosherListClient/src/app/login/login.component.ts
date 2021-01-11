@@ -23,7 +23,7 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
   myuser:Users;
-  flag:boolean=false;
+  flag:boolean;
   ss:boolean=false;
     searchuser(){
     const User = <Users> this.form.value;

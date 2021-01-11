@@ -72,11 +72,13 @@
     <Compile Include="convertion\UpdatesConvertion.cs" />
     <Compile Include="convertion\UsersConvertion.cs" />
     <Compile Include="convertion\WorkerConvertion.cs" />
+    <Compile Include="convertion\WorkerSchedulerConvertion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="services\StoreBL.cs" />
     <Compile Include="services\UpdatesBL.cs" />
     <Compile Include="services\UsersBL.cs" />
     <Compile Include="services\WorkerBL.cs" />
+    <Compile Include="services\WorkerSchedulerBL.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

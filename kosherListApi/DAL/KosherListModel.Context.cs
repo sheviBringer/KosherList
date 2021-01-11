@@ -29,5 +29,6 @@ namespace DAL
         public virtual DbSet<Updates_tbl> Updates_tbl { get; set; }
         public virtual DbSet<Users_tbl> Users_tbl { get; set; }
         public virtual DbSet<Worker_tbl> Worker_tbl { get; set; }
+        public virtual DbSet<WorkerScheduler_tbl> WorkerScheduler_tbl { get; set; }
     }
 }

@@ -7,9 +7,18 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class UserService {
-
+  CurrentUser:Users;
   constructor(private Http:HttpClient) { }
+getCurrentUser(){
+  if(this.CurrentUser===null)
+  {return null}
+  else
+  return this.CurrentUser;
+};
 
+saveCurrentUser(u:Users){
+  this.CurrentUser=u;
+};
   getUsers():Observable<Users[]>{
     return this.Http.get<Users[]>("http://localhost:43048/api/users/getAllUsers");
    };

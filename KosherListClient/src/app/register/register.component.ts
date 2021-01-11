@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
+import { MatRadioChange } from '@angular/material';
 import { Worker } from '../classes/Worker';
 import { GetServerService } from '../get-server.service';
 import { WorkerService } from '../worker.service';
@@ -26,17 +27,24 @@ export class RegisterComponent implements OnInit {
 
   ngOnInit() {
   }
+  hide:boolean=true;
   flag: any = false;
   // worker: Worker = new Worker();
   
 // if (this.worker.email.indexOf("@") > -1)
       //  this.flagMail = true;
 
+      saveValueRadio(event: MatRadioChange, data)
+      {
+         this.form.value.movility=data;
+        //  console.log(this.form.value);
+
+      };
   flagUser: boolean;
   register() {
     const worker = <Worker> this.form.value;
     this.service.createWorker(worker).subscribe(x=>{
-     
+     console.log(this.form.value.mobility);
     })};
      
 

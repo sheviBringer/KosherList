@@ -11,6 +11,9 @@
         <EntityTypeShape EntityType="KosherListModel.Worker_tbl" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
         <AssociationConnector Association="KosherListModel.FK__Updates_t__codeS__3E52440B" ManuallyRouted="false" />
         <AssociationConnector Association="KosherListModel.FK__Updates_t__codeW__3F466844" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="KosherListModel.WorkerScheduler_tbl" Width="1.5" PointX="5.375" PointY="0.75" />
+        <AssociationConnector Association="KosherListModel.FK_WorkerId_Workers" />
+        <AssociationConnector Association="KosherListModel.FK_WorkerScheduler_tbl_WorkerScheduler_tbl" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
