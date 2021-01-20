@@ -9,12 +9,12 @@ import { Observable } from 'rxjs';
 export class UserService {
   CurrentUser:Users;
   constructor(private Http:HttpClient) { }
-getCurrentUser(){
-  if(this.CurrentUser===null)
-  {return null}
-  else
-  return this.CurrentUser;
-};
+// getCurrentUser(){
+//   if(this.CurrentUser===null)
+//   {return null}
+//   else
+//   return this.CurrentUser;
+// };
 
 saveCurrentUser(u:Users){
   this.CurrentUser=u;

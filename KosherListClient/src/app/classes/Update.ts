@@ -1,4 +1,4 @@
-export class Store
+export class Update
 {
     updatesId:number;
     codeStore:number;

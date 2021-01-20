@@ -1,3 +1,4 @@
+import { Variable } from '@angular/compiler/src/render3/r3_ast';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
@@ -18,13 +19,14 @@ export class LoginComponent implements OnInit {
     userUserName: this.fb.control('', [Validators.required]),
     userPassword: this.fb.control('', [Validators.required]),
     });
+  testObject:Variable;
   hide = true;
 
   ngOnInit() {
   }
   myuser:Users;
   flag:boolean;
-  ss:boolean=false;
+  // ss:boolean=false;
     searchuser(){
     const User = <Users> this.form.value;
     this.service.getUsers()
@@ -37,13 +39,20 @@ export class LoginComponent implements OnInit {
 this.form.reset();
         // console.log(t);
         // console.log(User);
+       
       }
       else{
         // console.log(t);
         // console.log(User);
-        this.router.navigate(['/stores']);
+        // this.testObject ={key:"this.form.value.userPassword", value:"Date 2017-02-03T08:38:04.449Z"};
+
+        localStorage.setItem("userCurrent",this.form.value.userPassword );
+        console.log(localStorage.getItem("userCurrent"))
+        console.log(localStorage.getItem(this.form.value.userPassword));
+          
+        this.router.navigate(['/updates']);
       }
-      
+    
     });
     
   }

@@ -41,6 +41,10 @@ create(){
 ss(e: MatRadioChange, data:number)
 {
   // console.log(e);
+
+
+
+
   // console.log(data);
 this.form.value.clasificationStore=data;
  console.log(this.form);

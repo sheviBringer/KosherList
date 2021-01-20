@@ -1,17 +1,31 @@
 
 <router-outlet></router-outlet>
-
-<form #myForm="ngForm" (ngSubmit)="update()">
-<p>
+<!-- export class Store
+{
+    updatesId:number;
+    codeStore:number;
+    codeWorker:number;
+    dateVisit:Date;
+    begginingTime:Date;
+    exitingTime:Date;
+    remarks:string;
+} -->
+<form [formGroup]="form" (ngSubmit)="create()">
+<div>
+  hola:
+  {{user}}
+  
+</div>
+  <p>
     <mat-form-field appearance="legacy">
       <mat-label>שם משגיח</mat-label>
-      <input matInput>    
+      <input matInput formControlName="codeWorker">    
     </mat-form-field>
   </p>
   <p>
     <mat-form-field appearance="legacy">
       <mat-label>שם חנות</mat-label>
-      <input matInput >      
+      <input matInput formControlName="codeStore">      
     </mat-form-field>
   </p>
   
@@ -45,11 +59,12 @@
   <mat-radio-group
     aria-labelledby="example-radio-group-label"
     class="example-radio-group"
-    [(ngModel)]="testResult" name="radio">
+    formControlName="remarks" name="radio">
     <mat-radio-button class="example-radio-button" *ngFor="let test of choiceTest" [value]="test">
       {{test}}
     </mat-radio-button>
   </mat-radio-group>
+  <button mat-button type="submit">סיים עדכון</button>
   
 </form>
 
